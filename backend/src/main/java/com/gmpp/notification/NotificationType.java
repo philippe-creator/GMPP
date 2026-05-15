@@ -1,0 +1,12 @@
+package com.gmpp.notification;
+
+public enum NotificationType {
+    INTERVENTION_UPCOMING,
+    INTERVENTION_OVERDUE,
+    INTERVENTION_ASSIGNED,
+    INTERVENTION_COMPLETED,
+    INTERVENTION_VALIDATED,
+    MACHINE_ALERT,
+    STOCK_LOW,
+    SYSTEM
+}
